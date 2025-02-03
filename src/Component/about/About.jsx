@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/about_profile.svg'
@@ -21,15 +22,15 @@ const About = () =>{
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"> <p>C & C++</p> <hr style={{width:"80%"}} /> </div>
-                        <div className="about-skill"> <p>JavaScript</p> <hr style={{width:"70%"}} /> </div>
-                        <div className="about-skill"> <p>python</p> <hr style={{width:"60%"}} /> </div>
+                        <div className="about-skill"> <p>JavaScript</p> <hr style={{width:"65%"}} /> </div>
+                        <div className="about-skill"> <p>python</p> <hr style={{width:"45%"}} /> </div>
                         <div className="about-skill"> <p>Mysql</p> <hr style={{width:"50%"}} /> </div>
                     </div>
                 </div>
             </div>
             <div className="about-achivments">
                 <div className="about-achivment">
-                    <h1>200+</h1>
+                    <h1>300+</h1>
                     <p>SOLVE QUETION ON LEETCODE</p>
                 </div>
                 <hr/>

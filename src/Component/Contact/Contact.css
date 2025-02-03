@@ -139,6 +139,7 @@
     .contact-detail {
         flex-direction: column; /* Stack contact details vertically on mobile */
         align-items: flex-start;
+        transition: 0.2s;
     }
 
     .contact-right {

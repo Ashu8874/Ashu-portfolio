@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="contact-section">
             <div className="contact-left">
                 <h1>Let's talk</h1>
-                <p>This is My Portfolio website ,So if you wat to contact with me, so feel free to send me a message about anything that you want to work on. You can contact anytime. </p>
+                <p>This is My Portfolio website ,So if you want to contact with me, so feel free to send me a message about anything that you want to work on. You can contact anytime. </p>
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" /><p>ashutoshsingh2322003@gmail.com</p>

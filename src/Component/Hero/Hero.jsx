@@ -7,12 +7,12 @@ import resume from '../../assets/Ashutosh_Resume.pdf'; // Ensure you place your 
 const Hero = () => {
     return (
         <div id="home" className="hero">
-            <img src={profile_img} alt="Ashutosh Singh Profile" />
+            <img   src={profile_img} alt="Ashutosh Singh Profile" />
             <h1>
                 <span>I'm Ashutosh Singh,</span> Full Stack Web Developer in India.
             </h1>
             <p>
-            "I am a Full Stack Developer from Delhi-NCR, India, skilled in DSA and problem-solving, with over 200 LeetCode challenges solved, showcasing my technical expertise and passion for coding."            </p>
+            "I am a Full Stack Developer from Delhi-NCR, India, skilled in DSA and problem-solving, with over 300 LeetCode challenges solved, showcasing my technical expertise and passion for coding."            </p>
             <div className="hero-action">
                 <AnchorLink className="anchor-link" href="#contact">
                     <div className="hero-conect">Connect With Me</div>

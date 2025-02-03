@@ -6,6 +6,7 @@
 }
 .hero img {
     margin-top: 150px;
+    animation: bounce 2s infinite;
 }
 .hero h1{
     text-align:center ;
@@ -56,10 +57,27 @@
 .hero-resume:hover{
     border-color: #B415FF;
 }
+.hero img {
+    margin-top: 150px;
+    animation: bounce 2s infinite ease-in-out;
+    will-change: transform;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
 @media (max-width: 768px) {
     .hero img{
         margin-top: 120px;
         width: 260px;
+        
     }
 
     .hero h1 {
