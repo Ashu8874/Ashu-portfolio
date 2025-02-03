@@ -98,7 +98,7 @@ const Navbar = () => {
       </ul>
 
       <AnchorLink className="anchor-link" href='#contact'>
-        <div className="nav-connect" onClick={() => handleMenuClick("contact")}>Connect With Me</div>
+        <div className="nav-conect" onClick={() => handleMenuClick("contact")}>Connect With Me</div>
       </AnchorLink>
     </div>
   );
